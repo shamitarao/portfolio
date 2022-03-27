@@ -1,0 +1,148 @@
+body {background-color: rgb(255, 205, 222);}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        padding-left: 5%;
+        padding-right: 5%;
+        box-sizing: border-box;
+        position: relative;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(184, 206, 195);
+    color: white;
+    padding: 15px;
+  }
+  
+  .column {
+    float: left;
+    padding: 15px;
+  }
+  
+  .clearfix::after {
+    content: "nav";
+    clear: both;
+    display: table;
+  }
+  
+  .menu {width: 25%;}
+  .content {width: 75%;}
+
+
+.logo{
+    width:150px;
+    cursor:pointer;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100px;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.feature-img{
+    height: 280px;
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.feature1-img{
+    height: 280px;
+    width: 400px;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+.feature2-img{
+    height: 280px;
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 72%;
+}
+
+.feature3-img{
+    height: 280px;
+    width: 400px;
+    position: absolute;
+    top: 60%;
+    left: 72%;
+}
+
+.contact-me{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+.contact-me a{
+    text-decoration: none;
+    color: #6a7199;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.softwares h5{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #6a7199;
+}
+
+.softwares{
+    margin-top: 10px;
+    margin-left: 160px;
+    font-size: 20px;
+    color: #333;
+}
+
+.email{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 9%;
+}
